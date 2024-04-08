@@ -1,4 +1,5 @@
 const getRandomProvince = require("./provinces");
+const array = require("./data.json");
 
 function generateData(count) {
     const data = [];
@@ -24,7 +25,16 @@ function generateData(count) {
 
     return data;
 }
-
+function getRandomItems(n) {
+    var shuffled = array.slice(0), i = array.length, min = i - n, temp, index;
+    while (i-- > min) {
+        index = Math.floor((i + 1) * Math.random());
+        temp = shuffled[index];
+        shuffled[index] = shuffled[i];
+        shuffled[i] = temp;
+    }
+    return shuffled.slice(min);
+}
 // Hàm tạo GUID ngẫu nhiên
 function generateRandomGuid() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -33,10 +43,12 @@ function generateRandomGuid() {
         return v.toString(16);
     });
 }
-
+function generateRandomNumber() {
+    return Math.floor(Math.random() * 20) + 1;
+}
 // Hàm tạo Room ngẫu nhiên
 function generateRandomRoom() {
     return Math.floor(Math.random() * 100) + 1; // Giả sử Room từ 1 đến 100
 }
 
-module.exports = generateData;
+module.exports = {generateData,getRandomItems,generateRandomNumber};

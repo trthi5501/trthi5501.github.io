@@ -1,0 +1,182 @@
+[
+  {
+    "App": "MRBS",
+    "Office": "Đồng Tháp",
+    "Area": "Khánh Hòa",
+    "DeviceId": "024c88ec-d34a-4089-a9e7-c451aee98327",
+    "Room": 18,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Sơn La",
+    "Area": "Hà Tĩnh",
+    "DeviceId": "7a7b1d78-e64e-4e89-9e1b-24370bcbb446",
+    "Room": 60,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Nam Định",
+    "Area": "Hậu Giang",
+    "DeviceId": "ce788a4d-f747-44a0-880b-ef4da950a656",
+    "Room": 76,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Bình Thuận",
+    "Area": "Thừa Thiên Huế",
+    "DeviceId": "87133caf-205e-4637-8e4d-44ae0ee513ca",
+    "Room": 62,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Đồng Nai",
+    "Area": "Hồ Chí Minh",
+    "DeviceId": "bc9bfc28-c7c5-4493-b4c9-bba4aecc58e1",
+    "Room": 2,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Bến Tre",
+    "Area": "Lai Châu",
+    "DeviceId": "d6333afa-1dae-400e-b70c-afa31537813b",
+    "Room": 28,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Hậu Giang",
+    "Area": "Tiền Giang",
+    "DeviceId": "0906cb91-0e17-4b2c-a8f7-3202782e53d9",
+    "Room": 4,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Bắc Giang",
+    "Area": "Hải Dương",
+    "DeviceId": "9620a93f-7e8b-4dbd-953f-fd30d49fedac",
+    "Room": 85,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Bình Dương",
+    "Area": "Hồ Chí Minh",
+    "DeviceId": "6967d90c-72bb-4dfb-acfa-bbcdf257942a",
+    "Room": 24,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Long An",
+    "Area": "Bắc Kạn",
+    "DeviceId": "67bf940b-7787-4ed4-bef8-fed5e67caeb8",
+    "Room": 40,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Hải Phòng",
+    "Area": "Sóc Trăng",
+    "DeviceId": "dd8e184f-d934-4873-b53e-74053ed263cc",
+    "Room": 43,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Vĩnh Long",
+    "Area": "Nghệ An",
+    "DeviceId": "534e35e1-398a-4741-86e3-db50a97d2410",
+    "Room": 29,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Hồ Chí Minh",
+    "Area": "Hậu Giang",
+    "DeviceId": "48a65d99-7941-4b33-9b8d-402d7e865177",
+    "Room": 98,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Hưng Yên",
+    "Area": "Yên Bái",
+    "DeviceId": "9a332eab-4ceb-4355-888c-92ff753d1805",
+    "Room": 97,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Quảng Bình",
+    "Area": "Thái Bình",
+    "DeviceId": "008a3930-07da-4c1e-a56a-83f7e64ac536",
+    "Room": 45,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Quảng Trị",
+    "Area": "Bắc Ninh",
+    "DeviceId": "4a8b0423-27c3-44a8-943b-d0eba439f01c",
+    "Room": 12,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Sơn La",
+    "Area": "Hưng Yên",
+    "DeviceId": "9da29d8a-69fd-4c67-9444-568ed0b48610",
+    "Room": 65,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "Receptionist",
+    "Office": "Tuyên Quang",
+    "Area": "Điện Biên",
+    "DeviceId": "1520e196-36fa-4850-a322-663b9d27a3ce",
+    "Room": 37,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Hà Tĩnh",
+    "Area": "Gia Lai",
+    "DeviceId": "75754c9a-11d5-46a8-a55c-41d905a782cb",
+    "Room": 69,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  },
+  {
+    "App": "MRBS",
+    "Office": "Hòa Bình",
+    "Area": "Quảng Nam",
+    "DeviceId": "a3128b99-650d-4dd6-9e4d-8595fd1ec71b",
+    "Room": 61,
+    "Status": "Up",
+    "LastTime": "2024-04-08T17:47:06.471Z"
+  }
+]
