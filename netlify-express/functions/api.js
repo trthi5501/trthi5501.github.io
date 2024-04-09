@@ -3,7 +3,7 @@ const serverless = require('serverless-http');
 const app = express();
 const router = express.Router();
 let records = [];
-const {generateData,getRandomItems,generateRandomNumber} = require('./Device');
+const {generateData,getRandomItems,generateRandomNumber,addLastTime} = require('./Device');
 
 //Get all students
 router.get('/', (req, res) => {
@@ -27,7 +27,7 @@ router.put('/', (req, res) => {
 
 //showing demo records
 router.get('/demo', (req, res) => {
-  let response =  getRandomItems(generateRandomNumber());
+  let response =  addLastTime(getRandomItems(generateRandomNumber()));
   res.json(response);
 });
 

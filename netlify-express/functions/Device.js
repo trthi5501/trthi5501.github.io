@@ -35,6 +35,24 @@ function getRandomItems(n) {
     }
     return shuffled.slice(min);
 }
+function addLastTime(array) {
+    // Lặp qua từng mục trong mảng
+    array.forEach(function(item) {
+        // Tạo một đối tượng Date để lấy thời gian hiện tại
+        var currentDate = new Date();
+        // Format thời gian hiện tại thành yyyy/MM/dd hh:mm:ss
+        var formattedDate = currentDate.getFullYear() + '/' +
+            ('0' + (currentDate.getMonth() + 1)).slice(-2) + '/' +
+            ('0' + currentDate.getDate()).slice(-2) + ' ' +
+            ('0' + currentDate.getHours()).slice(-2) + ':' +
+            ('0' + currentDate.getMinutes()).slice(-2) + ':' +
+            ('0' + currentDate.getSeconds()).slice(-2);
+        // Thêm thuộc tính LastTime vào mỗi mục với giá trị là thời gian hiện tại đã được định dạng
+        item.LastTime = formattedDate;
+    });
+    return array;
+}
+
 // Hàm tạo GUID ngẫu nhiên
 function generateRandomGuid() {
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -51,4 +69,4 @@ function generateRandomRoom() {
     return Math.floor(Math.random() * 100) + 1; // Giả sử Room từ 1 đến 100
 }
 
-module.exports = {generateData,getRandomItems,generateRandomNumber};
+module.exports = {generateData,getRandomItems,generateRandomNumber,addLastTime};
